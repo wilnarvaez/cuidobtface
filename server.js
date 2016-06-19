@@ -7,8 +7,8 @@ var port = process.env.PORT || 8080;
 app.use(bodyParser.json());
 
 //Your FanPageToken Generated in your FB App
-var token = "EAAGntUHrzeUBAEp5BvTD1lYLl5hnI3wkHOaC6pymaSZCtlFXi2rN7WpdOW85emUH9AUig4kC3l8V3BAtUXT5QZCXFpLrZBnGl7HY4dK4W9GdSnV5ocV3iD0lD0JItrQSCf49sCcoiqBBZBiRQtoZCfN84A2Bl3QojdjqZAL2rmtwZDZD";
-var verify_token = "inspirar1992!";
+var token = "EAAYmbhf1QM0BAADRJNOWbwgCj5qQphqubZBPLTCoeYqJg7tgKXddCfrH6FMZAU7nxZCJRWjrfJUdsnyZCbB2Blc83tNt4HSEIM5afKrk5Vq2BjNttZCfQnd9I8XhsLYuCZCmy3DHNBWAbAqOeoGFKriWlW4lEXRuCEibjdkixMYwZDZD";
+var verify_token = "seminario";
 
 //Root EndPoint
 app.get('/', function (req, res) {
